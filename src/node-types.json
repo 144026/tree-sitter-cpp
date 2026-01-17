@@ -3043,6 +3043,11 @@
     }
   },
   {
+    "type": "field_identifier",
+    "named": true,
+    "fields": {}
+  },
+  {
     "type": "field_initializer",
     "named": true,
     "fields": {},
@@ -3909,6 +3914,11 @@
     }
   },
   {
+    "type": "identifier",
+    "named": true,
+    "fields": {}
+  },
+  {
     "type": "if_statement",
     "named": true,
     "fields": {
@@ -4563,6 +4573,11 @@
         }
       ]
     }
+  },
+  {
+    "type": "namespace_identifier",
+    "named": true,
+    "fields": {}
   },
   {
     "type": "nested_namespace_specifier",
@@ -6545,6 +6560,11 @@
     }
   },
   {
+    "type": "statement_identifier",
+    "named": true,
+    "fields": {}
+  },
+  {
     "type": "static_assert_declaration",
     "named": true,
     "fields": {
@@ -6597,6 +6617,10 @@
         },
         {
           "type": "string_content",
+          "named": true
+        },
+        {
+          "type": "stringification",
           "named": true
         }
       ]
@@ -7421,6 +7445,11 @@
     }
   },
   {
+    "type": "type_identifier",
+    "named": true,
+    "fields": {}
+  },
+  {
     "type": "type_parameter_declaration",
     "named": true,
     "fields": {},
@@ -7822,6 +7851,10 @@
   },
   {
     "type": "\"\"",
+    "named": false
+  },
+  {
+    "type": "##",
     "named": false
   },
   {
@@ -8378,10 +8411,6 @@
     "named": true
   },
   {
-    "type": "field_identifier",
-    "named": true
-  },
-  {
     "type": "final",
     "named": false
   },
@@ -8396,10 +8425,6 @@
   {
     "type": "goto",
     "named": false
-  },
-  {
-    "type": "identifier",
-    "named": true
   },
   {
     "type": "if",
@@ -8444,10 +8469,6 @@
   {
     "type": "namespace",
     "named": false
-  },
-  {
-    "type": "namespace_identifier",
-    "named": true
   },
   {
     "type": "new",
@@ -8558,10 +8579,6 @@
     "named": false
   },
   {
-    "type": "statement_identifier",
-    "named": true
-  },
-  {
     "type": "static",
     "named": false
   },
@@ -8571,6 +8588,10 @@
   },
   {
     "type": "string_content",
+    "named": true
+  },
+  {
+    "type": "stringification",
     "named": true
   },
   {
@@ -8608,10 +8629,6 @@
   {
     "type": "try",
     "named": false
-  },
-  {
-    "type": "type_identifier",
-    "named": true
   },
   {
     "type": "typedef",
